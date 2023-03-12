@@ -1,7 +1,7 @@
-import EmptyState from "components/EmptyState";
-import NFTCard from "components/NFTCard";
-import useNFTMarket from "state/nft-market";
-import useSigner from "state/signer";
+import EmptyState from "../../components/EmptyState";
+import NFTCard from "../../components/NFTCard";
+import useNFTMarket from "../../state/nft-market";
+import useSigner from "../../state/signer";
 
 const OwnedPage = () => {
   const { signer } = useSigner();

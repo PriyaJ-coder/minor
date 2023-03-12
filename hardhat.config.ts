@@ -15,8 +15,9 @@ const config: HardhatUserConfig = {
       chainId: 1337
     },
     network: {
-      url: "http://127.0.0.1:7545",
-      accounts: ["4c1d746ddb49f5588fd5d5acbd85526370bdd86327b8f7dcf0c9937ef39c6235"]
+      // url: "http://127.0.0.1:7545",
+      url: "https://goerli.infura.io/v3/dc0429ceb25e4d52a8fde9ee0c3a3c01",
+      accounts: ["d92b9ced8996cc532297517370898c6c1eabb9e8a69f69e48aeee515bf229f46"]
     },
   },
 };

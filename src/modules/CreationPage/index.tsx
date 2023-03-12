@@ -1,8 +1,8 @@
 import classNames from "classnames";
-import EmptyState from "components/EmptyState";
+import EmptyState from "../../components/EmptyState";
 import { toast } from "react-toastify";
-import useNFTMarket from "state/nft-market";
-import useSigner from "state/signer";
+import useNFTMarket from "../../state/nft-market";
+import useSigner from "../../state/signer";
 import CreationForm, { CreationValues } from "./CreationForm";
 
 const CreationPage = () => {
